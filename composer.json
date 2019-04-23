@@ -1,0 +1,13 @@
+{
+    "require": {
+        "slim/slim": "^2.6",
+        "illuminate/database": "*",
+        "illuminate/pagination": "*",
+        "chriskacerguis/randomstring": "1.0.*"
+    },
+    "autoload": {
+    	"files": [ "app/config.php", 
+                 "app/auth/Authenticator.php"],
+    	"classmap": [ "app/models", "app/middleware", "app/data" ]
+    }
+}
